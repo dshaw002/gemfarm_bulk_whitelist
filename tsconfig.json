@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "types": ["mocha", "chai", "node"],
+    "lib": ["esnext", "scripthost", "dom", "dom.iterable"],
+  },
+  "include": [
+    "*.ts",
+  ],
+  "exclude": ["node_modules"],
+  "resolveJsonModule": true,
+}
